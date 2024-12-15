@@ -1,34 +1,54 @@
-p,body {
+p, body {
     padding: 10px;
     text-align: center;
     font-size: 20px;
     background: #000000;
     color: rgba(255, 255, 255, 0.925);
 }
-h1{
+
+h1 {
     border: 7px solid rgb(121, 69, 10);
 }
-em strong{
+
+em strong {
     color: rgb(155, 111, 54);
 }
-.items{
+
+.items {
     text-align: left;
     font-style: italic;
 }
-ul{
-    
+
+ul {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
     width: 20%;
     margin-right: 13%;
-    
 }
-.diferenciadores{
+
+.diferenciadores {
     padding: 4px;
     color: black;
     background-color: rgb(155, 111, 54);
 }
-.diferencial{
+
+.diferencial {
     width: 34%;
 }
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(155, 111, 54);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(121, 69, 10);
+}
+
 
